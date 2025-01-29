@@ -1,0 +1,10 @@
+Question:
+Imagine you're reviewing a class in an object-oriented application. This class is responsible for database operations like connecting to the database, executing queries, and also for logging various messages throughout the application. The class is frequently modified whenever there are changes to the database schema or when adjustments to the logging format are needed. Additionally, this class directly creates its own database connection objects and has methods tailored to specific SQL databases. Which SOLID principles are primarily being violated in this scenario?
+
+Answer:
+1)It primarily violates Single Responsibility Principle by handling both database operations and logging.
+2)It violates Open/Closed Principle as it requires modifications for database schema changes.
+3)It violates Dependency Inversion Principle by directly creating database dependencies I think it should depends on abstractions for that purpose.
+4)It violates Interface Segregation Principle by combining different responsibilities into one interface
+
+
