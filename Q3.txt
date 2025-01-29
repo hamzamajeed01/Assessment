@@ -4,8 +4,10 @@ What is the difference between composition and inheritance in Java and OOP?
 
 Answer:
 
- Inheritance is a mechanism where one class inherits properties and behaviors  from another class, forming an "is-a" relationship. For example, if I have a Dog class that extends an Animal class, Dog is a type of Animal, and it can access all public and protected methods of the Animal.(its like how i am related to my father, i inherit his genes.)
-Composition involves building a class using instances of other classes, forming a "has-a" relationship. For instance a Car class might have an Engine object as one of its fields, meaning a Car "has an" Engine.
+ Inheritance is a mechanism where one class inherits properties and behaviors  from another class,
+forming an "is-a" relationship. For example, if I have a Dog class that extends an Animal class, Dog is a type of Animal, and it can access all public and protected methods of the Animal.(its like how i am related to my father, i inherit his genes.)
+Composition involves building a class using instances of other classes, forming a "has-a" relationship. 
+For instance a Car class might have an Engine object as one of its fields, meaning a Car "has an" Engine.
 Inheritance is used for reusing code, while composition is used to build complex objects using simpler ones.
 Inheritance creates a hierarchy, while composition creates a more flexible, modular design.
 
